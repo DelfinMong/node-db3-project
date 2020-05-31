@@ -1,0 +1,5 @@
+select c.CategoryName, p.ProductName
+from Product as p
+join Category as c 
+  on p.CategoryId = c.Id
+  
